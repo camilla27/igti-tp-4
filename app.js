@@ -2,6 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import { accountsRouter } from './routes/accountsRouter.js'
 
+//require('dotenv').config();
 //conexão com o banco
 (async () => {
   try {
